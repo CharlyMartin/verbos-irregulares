@@ -30,48 +30,18 @@ class Scrapper < ServiceBase
       i += 1
     end
 
+    list_of_verbs.each do |verb|
 
-
-
-
-    ############################################################
-
-    xml_file = open(madyness_rss_url)
-    xml_doc = Nokogiri::XML(xml_file)
-
-    xml_doc.search('item').each do |article|
-
-      # Journalist Parsing
-      full_name = article.xpath('dc:creator').text
-      full_name.split(" ")
-
-      journalist_data = {
-        first_name: full_name.split(" ")[0],
-        last_name: full_name.split(" ")[1],
-        company: "Madyness"
-      }
-      journalist = Journalist.where(journalist_data).first_or_create
-
-      # Keyword Parsing
-      article.xpath('category').each do |k|
-        keyword = Keyword.where(name: k.text).first_or_create
-        kjist = journalist.keyword_counts.find_or_create_by(keyword: keyword)
-        kjist.count += 1
-        kjist.save
-      end
-
-      # Article Parsing
-      article_data = {
-        title: article.xpath('title').text,
-        link: article.xpath('link').text,
-        writed_at: article.xpath('pubDate').text,
-        journalist: journalist
+      verb_data = {
+       infinitive: verb,
+       simple_past: verb,
+       past_participle: verb,
+       translation: verb,
       }
 
-      article = Article.find_or_create_by(article_data)
-
-
+      p Verb.find_or_create_by(verb_data)
     end
 
   end
+
 end
