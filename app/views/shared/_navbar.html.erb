@@ -1,11 +1,14 @@
 <div class="navbar-wagon">
   <!-- Logo -->
-  <%= link_to root_path, class: "navbar-wagon-brand" do %>
-    <%= image_tag "logo-white.png" %>
-  <% end %>
+  <div class="navbar-wagon-side">
+    <%= link_to root_path, class: "navbar-wagon-brand" do %>
+      <%= image_tag "logo-white.png" %>
+    <% end %>
 
-  <!-- Right Navigation -->
-  <div class="navbar-wagon-right hidden-xs hidden-sm">
+    <%= link_to 'Verbos Irregulares en Ingles', root_path, class: 'navbar-wagon-link' %>
+  </div>
+  <!-- side Navigation -->
+  <div class="navbar-wagon-side hidden-xs hidden-sm">
 
     <!-- Different navigation if login or not -->
     <% if user_signed_in? %>
@@ -22,7 +25,7 @@
       <div class="navbar-wagon-item">
         <div class="dropdown">
           <%= image_tag "http://placehold.it/30x30", class: "avatar dropdown-toggle", id: "navbar-wagon-menu", "data-toggle" => "dropdown" %>
-          <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <ul class="dropdown-menu dropdown-menu-side navbar-wagon-dropdown-menu">
             <li>
               <%= link_to "#" do %>
                 <i class="fa fa-user"></i> <%= t(".profile", default: "Profile") %>
