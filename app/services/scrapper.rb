@@ -13,14 +13,15 @@ class Scrapper < ServiceBase
 
   private
 
-  def parsing(website)
+  def parsing(webpage)
 
-    html_file = open(webiste)
+    html_file = open(webpage)
     html_doc = Nokogiri::HTML(html_file)
     list_of_verbs = []
 
+    ## Parsing verbs
     html_doc.search('td[bgcolor] > p').each do |element|
-      list_of_verbs << element.text.strip
+      list_of_verbs << element.text.strip.downcase
     end
 
     ## Removing noises
@@ -30,18 +31,17 @@ class Scrapper < ServiceBase
       i += 1
     end
 
-    list_of_verbs.each do |verb|
+    ## building instances by 4
+    list_of_verbs.each_slice(4).to_a.each do |array|
 
       verb_data = {
-       infinitive: verb,
-       simple_past: verb,
-       past_participle: verb,
-       translation: verb,
+       infinitive: array[0],
+       simple_past: array[1],
+       past_participle: array[2],
+       translation: array[3],
       }
 
-      p Verb.find_or_create_by(verb_data)
+      Verb.create(verb_data)
     end
-
   end
-
 end
