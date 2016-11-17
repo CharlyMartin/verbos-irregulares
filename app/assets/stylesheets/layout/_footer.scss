@@ -1,1 +1,14 @@
-// Your footer style
+.footer {
+  margin-top: 6vh;
+  height: 6vh;
+  width: 100%;
+  background: rgba(10, 10, 10, 0.8);
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    color: white;
+    font-size: 14px;
+  }
+}

@@ -50,3 +50,25 @@
     }
   }
 }
+
+table {
+  margin-top: 3vh;
+  width: 100%;
+}
+
+th {
+  font-family: $header-font;
+  font-size: 18px;
+  padding: 5px 0;
+  border-bottom: solid 2px $blue;
+}
+
+td {
+  padding: 5px;
+  border-bottom: solid 1px rgba(10, 10, 10, 0.1);
+}
+
+tbody > tr:hover {
+  background: $blue;
+  color: white;
+}

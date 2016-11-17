@@ -5,6 +5,7 @@
   </div>
 </div>
 
+<!-- NOT DISPLAYED -->
 <% link_to root_path do %>
   <div class="link-pdf">
     <p class="link">Descargar tu lista completa gratuitamente (PDF)</p>
@@ -12,12 +13,32 @@
 <% end %>
 
 <div class="container">
-  <% @verbs.each do |verb| %>
-    <div class="row">
-      <div class="col-xs-3"> <%= verb.infinitive %> </div>
-      <div class="col-xs-3"> <%= verb.simple_past %> </div>
-      <div class="col-xs-3"> <%= verb.past_participle %> </div>
-      <div class="col-xs-3"> <%= verb.translation %> </div>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 col-xs-12">
+
+      <table>
+        <thead>
+          <tr>
+            <th>Infinitivo</th>
+            <th>Preterito</th>
+            <th>Participo</th>
+            <th>Traduccion</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @verbs.each do |verb| %>
+            <tr>
+              <td> <%= verb.infinitive %> </td>
+              <td> <%= verb.simple_past %> </td>
+              <td> <%= verb.past_participle %> </td>
+              <td> <%= verb.translation %> </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+
     </div>
-  <% end %>
+  </div>
 </div>
+
+
