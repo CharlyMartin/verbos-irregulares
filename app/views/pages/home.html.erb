@@ -1,7 +1,9 @@
 <div class="home" style="background-image: linear-gradient(-225deg, rgba(32, 164, 243, 0.3) 0%, rgba(252, 138, 0, 0.3) 50%), url(<%= asset_path 'home.jpg' %>);">
   <div class='text-container'>
-    <h1 class="tagline">Aprende sus verbos irregulares en ingles sin problema</h1>
-    <%= link_to 'Descargar tu lista completa (PDF)', root_path, class: 'home-button' %>
+    <h1 class="tagline">Ahora es fácil aprender los verbos irregulares</h1>
+    <%= link_to 'Descargar tu lista completa (PDF)',
+    'https://drive.google.com/file/d/0B_9fzp-RU1lXSmJ1cW4wYXBMcDA/view?usp=sharing',
+    class: 'home-button', target: '_blank' %>
   </div>
 </div>
 
@@ -20,9 +22,9 @@
         <thead>
           <tr>
             <th>Infinitivo</th>
-            <th>Preterito</th>
-            <th>Participo</th>
-            <th>Traduccion</th>
+            <th>Pasado Simple</th>
+            <th>Pasado Participio</th>
+            <th>Traducción</th>
           </tr>
         </thead>
         <tbody>

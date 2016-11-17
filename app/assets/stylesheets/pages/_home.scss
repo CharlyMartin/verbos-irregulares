@@ -1,6 +1,6 @@
 .home {
   background-size: cover !important;
-  background-position: 0% 47%;
+  background-position: 0% 30%;
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -10,8 +10,9 @@
 .text-container {
   text-align: center;
   background: rgba(10, 10, 10, 0.1);
-  padding: 40px 20px;
+  padding: 20px;
   border-radius: 3px;
+  margin-top: 50px;
 }
 
 .tagline {
