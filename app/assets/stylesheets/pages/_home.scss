@@ -1,7 +1,7 @@
 .home {
   background-size: cover !important;
-  background-position: center;
-  height: 85vh;
+  background-position: 0% 47%;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,5 +30,23 @@
     text-decoration: none;
     color: $orange;
     background: white;
+  }
+}
+
+.link-pdf {
+  height: 6vh;
+  width: 100%;
+  background: rgba(10, 10, 10, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: $orange;
+  }
+  &:hover {
+    background: $orange;
+    p {
+      color: white;
+    }
   }
 }
