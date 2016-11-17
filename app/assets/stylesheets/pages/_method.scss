@@ -1,0 +1,27 @@
+.method-text-container {
+  height: 80vh;
+  width: 100%;
+  padding: 50px;
+}
+
+#method-view1 {
+  // background: rgba(252, 138, 0, 0.05);
+  border-bottom: solid 4px $orange;
+}
+
+#method-view2 {
+  // background: rgba(32, 164, 243, 0.05);
+  border-bottom: solid 4px $blue;
+}
+
+#method-title1 {
+  // border-bottom: solid 20px rgba(252, 138, 0, 0.2);
+  background: rgba(252, 138, 0, 0.2);
+  display: inline;
+}
+
+#method-title2 {
+  // border-bottom: solid 20px rgba(252, 138, 0, 0.2);
+  background: rgba(32, 164, 243, 0.2);
+  display: inline;
+}
