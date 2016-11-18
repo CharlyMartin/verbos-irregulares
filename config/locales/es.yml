@@ -6,6 +6,7 @@ es:
     formats:
       hourminute: "%H:%M"
   navbar:
+    brand: 'Verbos Irregulares en Inglés'
     login: "Acceder"
   email-succesful-payment:
     subject: "Acceder al método"
@@ -39,9 +40,9 @@ es:
       No tiene cuenta?
     link-method: "Explore nuestro método"
   home:
-    baseline: "¡Ahora es fácil aprender los verbos irregulares!"
-    call-to-action: "Explore nuestro método"
-    download-pdf: "Descargar la lista de verbos irregulares en ingles (PDF)"
+    baseline: "¡Ahora es fácil aprender los verbos irregulares en Inglés!"
+    call-to-action: "Descubrir el método"
+    download-pdf: "Descargar gratuitamente la lista de verbos irregulares en inglés (PDF)"
     infinitive: "Infinitivo"
     preterit: "Pasado simple"
     past-participle: "Pasado participio"
@@ -49,7 +50,7 @@ es:
   method:
     call-to-action: "Inténtelo con nuestro método"
     view1:
-      why: "¿Por que utilizar nuestro método?"
+      why: "¿Por qué utilizar nuestro método?"
       why-text_html: |
         No es difícil aprender verbos irregulares en inglés. <br>
         El problema es el programa y el método que se utiliza para lograrlo. <br>
