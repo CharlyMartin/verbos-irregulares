@@ -1,14 +1,20 @@
 // CONTAINER ///////////////////////////////////////////////////////////////////
 .method-text-container {
-  height: 65vh;
   width: 100%;
-  padding: 50px;
+  padding: 50px 50px 100px 50px;
+  line-height: 2;
 }
 
 .method-title-container {
   width: 100%;
   padding-top: 50px;
   padding-left: 50px;
+}
+
+.method-subtitle-container {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 
@@ -23,16 +29,18 @@
   border-bottom: solid 4px $blue;
 }
 
-#method-title1 {
-  // border-bottom: solid 20px rgba(252, 138, 0, 0.2);
+
+// TITLES //////////////////////////////////////////////////////////////////////
+.method-title1 {
   background: rgba(252, 138, 0, 0.2);
   display: inline;
 }
 
-#method-title2 {
-  // border-bottom: solid 20px rgba(252, 138, 0, 0.2);
+.method-title2 {
+  font-size: 23px;
   background: rgba(32, 164, 243, 0.2);
   display: inline;
+  margin: 15px 0 5px 0;
 }
 
 // CALL-TO-ACTION /////////////////////////////////////////////////////////////
@@ -66,14 +74,15 @@
 .testimonial-text {
   height: 40vh;
   width: 100%;
-  padding: 20px;
+  padding-right: 30px;
+  font-style: italic;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .avatar-testimonial {
-  width: 80%;
+  width: 200px;
   border-radius: 50%;
   box-shadow: 0 1px 2px rgba(0,0,0,0.4);
   border: white 1px solid;

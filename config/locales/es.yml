@@ -50,10 +50,10 @@ es:
     call-to-action: "Inténtelo con nuestro método"
     view1:
       why: "¿Por que utilizar nuestro método?"
-      why-text: |
-        No es difícil aprender verbos irregulares en inglés.
-        El problema es el programa y el método que se utiliza para lograrlo.
-        Simplemente repasar una lista de verbos es aburrido e ineficiente.
+      why-text_html: |
+        No es difícil aprender verbos irregulares en inglés. <br>
+        El problema es el programa y el método que se utiliza para lograrlo. <br>
+        Simplemente repasar una lista de verbos es aburrido e ineficiente. <br>
         Después de consultar a varios profesores de inglés, incluyendo Beatriz,
         hemos desarrollado un programa interactivo, personalizado y eficiente.
     view2:
@@ -72,14 +72,18 @@ es:
         Asi es mas probable que los aprenda.
     view3:
       testimonials: "Testimonios"
-      testimonials-teacher: |
+      teacher: "Beatriz"
+      teacher-occupation: "Profesora de Ingles (Madrid)"
+      testimonial-teacher: |
         He intentado enseñar los verbos irregulares en ingles entre cada
         lección para mis alumnos. Les tomo varios meses para aprenderlos.
         Con este método, hemos logrado resultados en menos de un mes.
-      testimonials-employee: |
-        Por motivos profesionales, aprendía el inglés pero no tenía suficiente tiempo para hacerlo.
+      employee: "Sergio"
+      employee-occupation: "Consultor (Valencia)"
+      testimonial-employee: |
+        Por motivos profesionales, aprendía el inglés.
         Fue muy difícil aprender y dominar los verbos irregulares para mí.
-        Con esta aplicación, logre aprender los verbos después de un par de lecciones.
+        Con esta aplicación, logre aprender los verbos después de algunos ejercicios.
         En mi opinión, este programa ha sido una inversión indispensable.
     view4:
       reviews: "Reseñas"

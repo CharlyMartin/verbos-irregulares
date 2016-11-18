@@ -2,10 +2,12 @@
 
 <div class="fluid-container">
 
+<!-- VIEW 1 -->
+
   <div class="row">
     <div class="col-xs-12">
       <div class="method-title-container">
-        <h1 id='method-title1'> <%= t('method.view1.why') %> </h1>
+        <h1 class='method-title1'> <%= t('method.view1.why') %> </h1>
       </div>
     </div>
   </div>
@@ -13,17 +15,19 @@
   <div class="row">
     <div class="col-xs-12">
       <div class="method-text-container" id="method-view1">
-        <p> <%= t('method.view1.why-text') %> </p>
+        <p> <%= t('method.view1.why-text_html') %> </p>
       </div>
 
       <%= render "pages/shared/cta-method" %>
     </div>
   </div>
 
+<!-- VIEW 2 -->
+
   <div class="row">
     <div class="col-xs-12">
       <div class="method-title-container">
-        <h1 id='method-title1'>Testimonials</h1>
+        <h1 class='method-title1'> <%= t('method.view2.how-it-works') %> </h1>
       </div>
     </div>
   </div>
@@ -31,9 +35,14 @@
   <div class="row">
     <div class="col-xs-12">
       <div class="method-text-container" id="method-view1">
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
+        <div class="method-subtitle-container">
+          <h2 class='method-title2'> <%= t('method.view2.benefits1') %> </h2>
+        </div>
+        <p> <%= t('method.view2.benefits1-text') %> </p>
+        <div class="method-subtitle-container">
+          <h2 class='method-title2'> <%= t('method.view2.benefits2') %> </h2>
+        </div>
+        <p> <%= t('method.view2.benefits2-text') %> </p>
       </div>
 
       <%= render "pages/shared/cta-method" %>
@@ -45,51 +54,55 @@
   <div class="row">
     <div class="col-xs-12">
       <div class="method-title-container">
-        <h1 id='method-title1'>Testimonials</h1>
+        <h1 class='method-title1'> <%= t('method.view3.testimonials') %> </h1>
       </div>
     </div>
   </div>
 
+<!-- BEATRIZ -->
+
   <div class="row">
-    <div class="col-xs-3">
+    <div class="col-lg-3 col-md-6 col-xs-12">
       <div class="image-container">
         <%= image_tag 'testimonial-teacher.jpg', class: 'avatar-testimonial' %>
       </div>
 
       <div class="testimonial-name">
-        <h2>Beatriz</h2>
+        <h2> <%= t('method.view3.teacher') %> </h2>
       </div>
 
       <div class="testimonial-occupation">
-        <h3>Profesora de ingles (Madrid)</h3>
+        <h3> <%= t('method.view3.teacher-occupation') %> </h3>
       </div>
 
     </div>
 
-    <div class="col-xs-3">
+    <div class="col-lg-3 col-md-6 col-xs-12">
       <div class="testimonial-text">
-        <p>bla</p>
+        <p> <%= t('method.view3.testimonial-teacher') %> </p>
       </div>
     </div>
 
-    <div class="col-xs-3">
+<!-- SERGIO -->
+
+    <div class="col-lg-3 col-md-6 col-xs-12">
       <div class="image-container">
         <%= image_tag 'testimonial-man.jpg', class: 'avatar-testimonial' %>
       </div>
 
       <div class="testimonial-name">
-        <h2>Jorge</h2>
+        <h2> <%= t('method.view3.employee') %> </h2>
       </div>
 
       <div class="testimonial-occupation">
-        <h3>bla bla (Madrid)</h3>
+        <h3> <%= t('method.view3.employee-occupation') %> </h3>
       </div>
 
     </div>
 
-    <div class="col-xs-3">
+    <div class="col-lg-3 col-md-6 col-xs-12">
       <div class="testimonial-text">
-        <p>bla</p>
+        <p> <%= t('method.view3.testimonial-employee') %> </p>
       </div>
     </div>
   </div>
