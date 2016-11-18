@@ -1,10 +1,10 @@
 es:
   date:
     formats:
-      regular: '%d %B'
+      regular: "%d %B"
   time:
     formats:
-      hourminute: '%H:%M'
+      hourminute: "%H:%M"
   navbar:
     login: "Acceder"
   email-succesful-payment:
@@ -49,7 +49,7 @@ es:
   method:
     call-to-action: "Inténtelo con nuestro método"
     view1:
-      why: "¿Porque debe de utilizar nuestro método?"
+      why: "¿Por que utilizar nuestro método?"
       why-text: |
         No es difícil aprender verbos irregulares en inglés.
         El problema es el programa y el método que se utiliza para lograrlo.
@@ -120,7 +120,7 @@ es:
     past-participle: "Pasado participio"
     translation: "Traducción"
     action: "Acceder"
-    action-helper: "Para someter su respuesta, oprima "enter"
+    action-helper: "Para someter su respuesta, oprima Enter"
     skip-verb: "Saltar este verbo"
     progress: "Progreso"
     frequent-mistakes: "Errores frecuentes"
