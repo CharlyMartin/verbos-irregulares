@@ -83,35 +83,35 @@ es:
         En mi opinión, este programa ha sido una inversión indispensable.
     view4:
       reviews: "Reseñas"
-    pay:
-      view1:
-        bundle: "Lo que usted recibirá"
-        item1: "Acceso ilimitado a nuestro programa"
-        item2: "Entrenamiento personalizado"
-        item3: "Atención al cliente"
-        item4: "Lista de verbos irregulares en ingles (pdf)"
-      view2:
-        regular-price: "Precio regular"
-        discount: "Descuento limitado"
-        email: "Introduzca su correo electrónico"
-        email-confirmation: "Confirme su correo electrónico"
-        call-to-action: "Pague aquí"
-      faq:
-        question1: "¿Que es la garantía de 30 días?"
-        answer1: |
-          Si no ha quedado satisfecho con nuestro programa, tiene 30 días para
-          pedir un reembolso. Nos puede contactar al siguente correo electrónico:
-          contact@verbos-irregulares-en-ingles.es
-        question2: "¿Es seguro mi pago?"
-        answer2: |
-          Los pagos se someten a través de PayPal/Stripe y se aceptan
-          todas las tarjetas de crédito: MasterCard, Visa, AMEX etc.
-        question3: "¿Puedo comprar el programa para más de un usuario?"
-        answer3: |
-          Su cuenta con nuestro programa es personalizada y sigue su progreso individual.
-          Se requiere abrir una cuenta nueva para cada usuario.
-          Nos puede contactar al siguente correo electronico para pedir
-          una tarifa con descuento: contact@verbos-irregulares-en-ingles.com
+  pay:
+    view1:
+      bundle: "Lo que usted recibirá"
+      item1: "Acceso ilimitado a nuestro programa"
+      item2: "Entrenamiento personalizado"
+      item3: "Atención al cliente"
+      item4: "Lista de verbos irregulares en ingles (pdf)"
+    view2:
+      regular-price: "Precio regular"
+      discount: "Descuento limitado"
+      email: "Introduzca su correo electrónico"
+      email-confirmation: "Confirme su correo electrónico"
+      call-to-action: "Pague aquí"
+    faq:
+      question1: "¿Que es la garantía de 30 días?"
+      answer1: |
+        Si no ha quedado satisfecho con nuestro programa, tiene 30 días para
+        pedir un reembolso. Nos puede contactar al siguente correo electrónico:
+        contact@verbos-irregulares-en-ingles.es
+      question2: "¿Es seguro mi pago?"
+      answer2: |
+        Los pagos se someten a través de PayPal/Stripe y se aceptan
+        todas las tarjetas de crédito: MasterCard, Visa, AMEX etc.
+      question3: "¿Puedo comprar el programa para más de un usuario?"
+      answer3: |
+        Su cuenta con nuestro programa es personalizada y sigue su progreso individual.
+        Se requiere abrir una cuenta nueva para cada usuario.
+        Nos puede contactar al siguente correo electronico para pedir
+        una tarifa con descuento: contact@verbos-irregulares-en-ingles.com
   software:
     reset-password: "Reestablecer mi contraseña"
     logout: "cerrar sesión"

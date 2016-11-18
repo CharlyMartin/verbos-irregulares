@@ -84,34 +84,34 @@ en:
         To my opinion, the return on investment is indisputable.
       view4:
         reviews: "Reviews"
-      pay:
-        view1:
-          bundle: "What you will get"
-          item1: "Unilimited access to the software"
-          item2: "Personalized training"
-          item3: "Email support"
-          item4: "List of English irregular verbs (PDF)"
-        view2:
-          regular-price: "Regular price"
-          discount: "Limited discount"
-          email: "Enter your email"
-          email-confirmation: "Confirm your email"
-          call-to-action: "Pay"
-        faq:
-          question1: "What is the 30-day Money Back Guarantee?"
-          answer1: |
-            If you are unsatisfied with the method, you are free to ask for a full
-            refund up to 30 days after the purchase.
-            Just get in touch with us at xxx@x.com
-          question2: "Is the payment safe?"
-          answer2: |
-            Payment is made securely through PayPal/Stripe.
-            It accepts all kinds of credit cards: MasterCard, Visa, American Express or others.
-          question3: "Can I buy the software for several users?"
-          answer3: |
-            As the accounts are personal and track the user's progress,
-            you would need to create an account per person.
-            Contact us at xxx@x.com to get a discounted rate.
+  pay:
+    view1:
+      bundle: "What you will get"
+      item1: "Unilimited access to the software"
+      item2: "Personalized training"
+      item3: "Email support"
+      item4: "List of English irregular verbs (PDF)"
+    view2:
+      regular-price: "Regular price"
+      discount: "Limited discount"
+      email: "Enter your email"
+      email-confirmation: "Confirm your email"
+      call-to-action: "Pay"
+    faq:
+      question1: "What is the 30-day Money Back Guarantee?"
+      answer1: |
+        If you are unsatisfied with the method, you are free to ask for a full
+        refund up to 30 days after the purchase.
+        Just get in touch with us at xxx@x.com
+      question2: "Is the payment safe?"
+      answer2: |
+        Payment is made securely through PayPal/Stripe.
+        It accepts all kinds of credit cards: MasterCard, Visa, American Express or others.
+      question3: "Can I buy the software for several users?"
+      answer3: |
+        As the accounts are personal and track the user's progress,
+        you would need to create an account per person.
+        Contact us at xxx@x.com to get a discounted rate.
   software:
     reset-password: "Reset my password"
     logout: "logout"
