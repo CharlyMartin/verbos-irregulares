@@ -1,0 +1,126 @@
+es:
+  date:
+    formats:
+      regular: '%d %B'
+  time:
+    formats:
+      hourminute: '%H:%M'
+  navbar:
+    login: "Acceder"
+  email-succesful-payment:
+    subject: "Acceder al método"
+    hello: "Hola"
+    success: "Su orden ha sido confirmada. La contraseña para su cuenta es:"
+    link: |
+      Introduzca esta contraseña con su correo electrónico
+      para acceder al programa usando este enlace:
+    good-bye: "¡Feliz aprendizaje!"
+    signature: "Guillermo de verbos-irregulares-en-ingles.es"
+  email-failed-payment:
+    subject: "Acceder a su orden"
+    hello: "Hola"
+    thank-you-interest: |
+      Le agradecemos por haber elegido nuestro programa.
+    retargeting: |
+      Al parecer no ha completado su pedido. Al seguir este enlace puede
+      acceder a su cuenta para completarlo:
+    good-bye: "¡Esperamos su regreso!"
+    signature: "Guillermo de verbos-irregulares-en-ingles.es"
+  footer:
+    baseline: "Verbos Irregulares en Ingles ©: ¡Ahora es fácil aprender los verbos irregulares!"
+    contact: "contact@verbos-irregulares-en-ingles.es"
+  login:
+    login: "Acceder a su cuenta"
+    email: "Correo electrónico"
+    password: "Contraseña"
+    password-forgotten: " Olvidó la contraseña?"
+    no-account: |
+      Puede acceder a su cuenta y practicar los verbos irregulares a través de esta página.
+      No tiene cuenta?
+    link-method: "Explore nuestro método"
+  home:
+    baseline: "¡Ahora es fácil aprender los verbos irregulares!"
+    call-to-action: "Explore nuestro método"
+    download-pdf: "Descargar la lista de verbos irregulares en ingles (PDF)"
+    infinitive: "Infinitivo"
+    preterit: "Pasado simple"
+    past-participle: "Pasado participio"
+    translation: "Traducción"
+  method:
+    call-to-action: "Inténtelo con nuestro método"
+    view1:
+      why: "¿Porque debe de utilizar nuestro método?"
+      why-text: |
+        No es difícil aprender verbos irregulares en inglés.
+        El problema es el programa y el método que se utiliza para lograrlo.
+        Simplemente repasar una lista de verbos es aburrido e ineficiente.
+        Después de consultar a varios profesores de inglés, incluyendo Beatriz,
+        hemos desarrollado un programa interactivo, personalizado y eficiente.
+    view2:
+      how-it-works: "Como funciona nuestro programa"
+      benefits1: "Un aprendizaje activo"
+      benefits1-text: |
+        Al repasar una lista de verbos, se aprende de una manera pasiva.
+        Nuestro método incluye un programa interactivo
+        con el que se aprenden los verbos irregulares efectivamente.
+        Garantizamos que el usuario va a aprender los verbos 80% más rápido que con una lista típica!
+      benefits2: "Un aprendizaje personalizado"
+      benefits2-text: |
+        Utilizando un método regular, es posible repasar los verbos que ya conoce el usuario.
+        Pero con nuestro método, el programa se enfoca y reconoce
+        los verbos que más se le dificultan para el usuario.
+        Asi es mas probable que los aprenda.
+    view3:
+      testimonials: "Testimonios"
+      testimonials-teacher: |
+        He intentado enseñar los verbos irregulares en ingles entre cada
+        lección para mis alumnos. Les tomo varios meses para aprenderlos.
+        Con este método, hemos logrado resultados en menos de un mes.
+      testimonials-employee: |
+        Por motivos profesionales, aprendía el inglés pero no tenía suficiente tiempo para hacerlo.
+        Fue muy difícil aprender y dominar los verbos irregulares para mí.
+        Con esta aplicación, logre aprender los verbos después de un par de lecciones.
+        En mi opinión, este programa ha sido una inversión indispensable.
+    view4:
+      reviews: "Reseñas"
+    pay:
+      view1:
+        bundle: "Lo que usted recibirá"
+        item1: "Acceso ilimitado a nuestro programa"
+        item2: "Entrenamiento personalizado"
+        item3: "Atención al cliente"
+        item4: "Lista de verbos irregulares en ingles (pdf)"
+      view2:
+        regular-price: "Precio regular"
+        discount: "Descuento limitado"
+        email: "Introduzca su correo electrónico"
+        email-confirmation: "Confirme su correo electrónico"
+        call-to-action: "Pague aquí"
+      faq:
+        question1: "¿Que es la garantía de 30 días?"
+        answer1: |
+          Si no ha quedado satisfecho con nuestro programa, tiene 30 días para
+          pedir un reembolso. Nos puede contactar al siguente correo electrónico:
+          contact@verbos-irregulares-en-ingles.es
+        question2: "¿Es seguro mi pago?"
+        answer2: |
+          Los pagos se someten a través de PayPal/Stripe y se aceptan
+          todas las tarjetas de crédito: MasterCard, Visa, AMEX etc.
+        question3: "¿Puedo comprar el programa para más de un usuario?"
+        answer3: |
+          Su cuenta con nuestro programa es personalizada y sigue su progreso individual.
+          Se requiere abrir una cuenta nueva para cada usuario.
+          Nos puede contactar al siguente correo electronico para pedir
+          una tarifa con descuento: contact@verbos-irregulares-en-ingles.com
+  software:
+    reset-password: "Reestablecer mi contraseña"
+    logout: "cerrar sesión"
+    infinitive: "Infinitivo"
+    past: "Pasado simple"
+    past-participle: "Pasado participio"
+    translation: "Traducción"
+    action: "Acceder"
+    action-helper: "Para someter su respuesta, oprima "enter"
+    skip-verb: "Saltar este verbo"
+    progress: "Progreso"
+    frequent-mistakes: "Errores frecuentes"

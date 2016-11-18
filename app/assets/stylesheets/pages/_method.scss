@@ -5,12 +5,6 @@
   padding: 50px;
 }
 
-.method-text-container-small {
-  height: 60vh;
-  width: 100%;
-  padding: 50px;
-}
-
 .method-title-container {
   width: 100%;
   padding-top: 50px;
@@ -64,20 +58,31 @@
 
 // TESTIMONIALS
 .image-container {
-  width: 80%;
+  width: 100%;
+  padding: 30px;
   text-align: center;
+}
+
+.testimonial-text {
+  height: 40vh;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .avatar-testimonial {
   width: 80%;
   border-radius: 50%;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
   border: white 1px solid;
 }
 
 .testimonial-name {
   width: 100%;
   text-align: center;
+  padding-bottom: 10px;
   color: $orange;
   h2 {
     font-size: 22px;
