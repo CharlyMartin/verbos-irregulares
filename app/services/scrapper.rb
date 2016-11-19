@@ -21,7 +21,7 @@ class Scrapper < ServiceBase
 
     ## Parsing verbs
     html_doc.search('td[bgcolor] > p').each do |element|
-      list_of_verbs << element.text.strip.downcase
+      list_of_verbs << element.text.strip.downcase.gsub(/,/, ' /')
     end
 
     ## Removing noises
