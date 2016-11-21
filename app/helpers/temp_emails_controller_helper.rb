@@ -1,0 +1,2 @@
+module TempEmailsControllerHelper
+end

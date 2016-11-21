@@ -6,5 +6,6 @@ class PagesController < ApplicationController
   end
 
   def method
+    @temp_email = TempEmail.new
   end
 end
