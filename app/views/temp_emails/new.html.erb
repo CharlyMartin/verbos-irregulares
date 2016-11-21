@@ -1,0 +1,29 @@
+<div class="navbar-ph"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 col-xs 12">
+
+    <div class="centered">
+      <%= image_tag('logo-blue.png', class: 'logo-form') %>
+    </div>
+
+    <p>bla bla </p>
+    <br>
+    <br>
+      <!-- SIMPLE FORM -->
+      <%= simple_form_for [@temp_email], url: temp_emails_path, method: :post do |f| %>
+        <%= f.error_notification %>
+
+        <%= f.input :f_name, label: 'Nombre', placeholder: 'Alejandro' %>
+        <%= f.input :l_name, label: 'Apellido', placeholder: 'Moreno Garcia'%>
+        <%= f.input :email, label: 'Email', placeholder: 'a.moreno-garcia@gmail.com' %>
+        <%= f.submit "Créer", class: "btn btn-success", style: "witdh: 100%;" %>
+      <% end %>
+
+      <br>
+      <br>
+
+    </div>
+  </div>
+</div>

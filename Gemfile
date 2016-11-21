@@ -9,6 +9,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'devise'
 gem 'redis'
 gem 'nokogiri'
+gem 'rails-i18n', '~> 5.0.0'
 
 gem 'sass-rails'
 gem 'jquery-rails'
