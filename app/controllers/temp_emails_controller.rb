@@ -9,7 +9,7 @@ class TempEmailsController < ApplicationController
     @temp_email = TempEmail.new(temp_email_params)
 
     if @temp_email.save
-      redirect_to method_path, notice: "Su bla bla...."
+      redirect_to method_path, notice: t('email.temporary.notification-success')
     else
       render :new
     end

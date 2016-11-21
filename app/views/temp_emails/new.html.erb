@@ -8,17 +8,18 @@
       <%= image_tag('logo-blue.png', class: 'logo-form') %>
     </div>
 
-    <p>bla bla </p>
+    <p> <%= t('email.temporary.explanation_html') %> </p>
     <br>
     <br>
       <!-- SIMPLE FORM -->
       <%= simple_form_for [@temp_email], url: temp_emails_path, method: :post do |f| %>
         <%= f.error_notification %>
 
-        <%= f.input :f_name, label: 'Nombre', placeholder: 'Alejandro' %>
-        <%= f.input :l_name, label: 'Apellido', placeholder: 'Moreno Garcia'%>
-        <%= f.input :email, label: 'Email', placeholder: 'a.moreno-garcia@gmail.com' %>
-        <%= f.submit "Créer", class: "btn btn-success", style: "witdh: 100%;" %>
+        <%= f.input :f_name, label: t('email.temporary.f_name'), placeholder: 'Alejandro' %>
+        <%= f.input :l_name, label: t('email.temporary.l_name'), placeholder: 'Moreno Garcia'%>
+        <%= f.input :email, label: t('email.temporary.email'),
+                    placeholder: 'a.moreno-garcia@gmail.com' %>
+        <%= f.submit t('email.temporary.submit'), class: "btn btn-warning", style: "witdh: 100%;" %>
       <% end %>
 
       <br>

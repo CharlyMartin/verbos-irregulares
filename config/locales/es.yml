@@ -8,27 +8,40 @@ es:
   navbar:
     brand: 'Verbos Irregulares en Inglés'
     login: "Acceder"
-  email-succesful-payment:
-    subject: "Acceder al método"
-    hello: "Hola"
-    success: "Su orden ha sido confirmada. La contraseña para su cuenta es:"
-    link: |
-      Introduzca esta contraseña con su correo electrónico
-      para acceder al programa usando este enlace:
-    good-bye: "¡Feliz aprendizaje!"
-    signature: "Guillermo de verbos-irregulares-en-ingles.es"
-  email-failed-payment:
-    subject: "Acceder a su orden"
-    hello: "Hola"
-    thank-you-interest: |
-      Le agradecemos por haber elegido nuestro programa.
-    retargeting: |
-      Al parecer no ha completado su pedido. Al seguir este enlace puede
-      acceder a su cuenta para completarlo:
-    good-bye: "¡Esperamos su regreso!"
-    signature: "Guillermo de verbos-irregulares-en-ingles.es"
+  email:
+    temporary:
+      f_name: 'Nombre'
+      l_name: "Apellido"
+      email: 'Correo'
+      explanation_html: |
+        Estamos afinando el método con profesores de inglés y
+        probándolo con estudiantes. Estará listo muy pronto ! <br>
+        Deje su correo electrónico para ser notificado una vez
+        lanzado y ahorrar un 80% de su tiempo aprendiendo los verbos irregulares en inglés !
+      notification-success: |
+        Tu correo electrónico ha sido registrado. Te notificaremos muy pronto !
+      submit: 'Enviar'
+    succesful-payment:
+      subject: "Acceder al método"
+      hello: "Hola"
+      success: "Su orden ha sido confirmada. La contraseña para su cuenta es:"
+      link: |
+        Introduzca esta contraseña con su correo electrónico
+        para acceder al programa usando este enlace:
+      good-bye: "¡Feliz aprendizaje!"
+      signature: "Guillermo de verbos-irregulares-en-ingles.es"
+    failed-payment:
+      subject: "Acceder a su orden"
+      hello: "Hola"
+      thank-you-interest: |
+        Le agradecemos por haber elegido nuestro programa.
+      retargeting: |
+        Al parecer no ha completado su pedido. Al seguir este enlace puede
+        acceder a su cuenta para completarlo:
+      good-bye: "¡Esperamos su regreso!"
+      signature: "Guillermo de verbos-irregulares-en-ingles.es"
   footer:
-    baseline: "Verbos Irregulares en Ingles ©: ¡Ahora es fácil aprender los verbos irregulares!"
+    baseline: "Verbos Irregulares en Ingles © : ¡Ahora es fácil aprender los verbos irregulares!"
     contact: "contact@verbos-irregulares-en-ingles.es"
   login:
     login: "Acceder a su cuenta"

@@ -3,7 +3,7 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # From i18n gem
-  config.i18n.available_locales = ['es-ES']
+  config.i18n.available_locales = :es
 
   # Code is not reloaded between requests.
   config.cache_classes = true
