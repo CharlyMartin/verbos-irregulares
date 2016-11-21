@@ -48,11 +48,11 @@ es:
     past-participle: "Pasado participio"
     translation: "Traducción"
   method:
-    call-to-action: "Inténtelo con nuestro método"
+    call-to-action: "Prueba nuestro método"
     view1:
       why: "¿Por qué utilizar nuestro método?"
       why-text_html: |
-        No es difícil aprender verbos irregulares en inglés. <br>
+        No es difícil aprender los verbos irregulares en inglés. <br>
         El problema es el programa y el método que se utiliza para lograrlo. <br>
         Simplemente repasar una lista de verbos es aburrido e ineficiente. <br>
         Después de consultar a varios profesores de inglés, incluyendo Beatriz,
@@ -61,7 +61,7 @@ es:
       how-it-works: "Como funciona nuestro programa"
       benefits1: "Un aprendizaje activo"
       benefits1-text: |
-        Al repasar una lista de verbos, se aprende de una manera pasiva.
+        Al repasar una lista de verbos irregulares, se aprende de una manera pasiva.
         Nuestro método incluye un programa interactivo
         con el que se aprenden los verbos irregulares efectivamente.
         Garantizamos que el usuario va a aprender los verbos 80% más rápido que con una lista típica!
@@ -77,14 +77,15 @@ es:
       teacher-occupation: "Profesora de Ingles (Madrid)"
       testimonial-teacher: |
         He intentado enseñar los verbos irregulares en ingles entre cada
-        lección para mis alumnos. Les tomo varios meses para aprenderlos.
+        lección para mis alumnos por años. Les tomo generalmente varios meses para aprenderlos.
         Con este método, hemos logrado resultados en menos de un mes.
       employee: "Sergio"
       employee-occupation: "Consultor (Valencia)"
       testimonial-employee: |
-        Por motivos profesionales, aprendía el inglés.
-        Fue muy difícil aprender y dominar los verbos irregulares para mí.
-        Con esta aplicación, logre aprender los verbos después de algunos ejercicios.
+        Por motivos profesionales, intenté de aprender el inglés.
+        El aprendizaje de los verbos irregulares fue el mas dificil para mi.
+        Con esta aplicación, logre aprender y dominos la mayoria de los verbos
+        después de algunos ejercicios.
         En mi opinión, este programa ha sido una inversión indispensable.
     view4:
       reviews: "Reseñas"
