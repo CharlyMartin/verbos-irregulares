@@ -12,7 +12,7 @@ es:
     temporary:
       f_name: 'Nombre'
       l_name: "Apellido"
-      email: 'Correo'
+      email: 'Correo electrónico'
       explanation_html: |
         Estamos afinando el método con profesores de inglés y
         probándolo con estudiantes. Estará listo muy pronto ! <br>
